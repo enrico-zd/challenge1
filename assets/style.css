@@ -1,0 +1,23 @@
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#main-content h1, p{
+    color: #552583;    
+}
+
+@media screen and (min-width: 600px) {
+    #main-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+    #main-content div{
+        margin: 6%;
+    }
+}
